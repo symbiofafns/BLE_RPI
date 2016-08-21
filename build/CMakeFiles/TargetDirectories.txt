@@ -1,0 +1,1 @@
+/root/workspace/smart_home/build/CMakeFiles/smart_home.dir

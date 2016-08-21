@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/workspace/smart_home/source/ble_gatt/ble_gatt.h
+stdint.h
+-
+
+/root/workspace/smart_home/source/color_tb/color_tb.h
+stdint.h
+-
+
+/root/workspace/smart_home/source/gesture_sensor/gesture_sensor.h
+stdint.h
+-
+
+/root/workspace/smart_home/source/gesture_sensor/gpio.h
+stdint.h
+-
+
+/root/workspace/smart_home/source/main.c
+stdio.h
+/root/workspace/smart_home/source/stdio.h
+stdlib.h
+/root/workspace/smart_home/source/stdlib.h
+string.h
+/root/workspace/smart_home/source/string.h
+ble_gatt/ble_gatt.h
+/root/workspace/smart_home/source/ble_gatt/ble_gatt.h
+color_tb/color_tb.h
+/root/workspace/smart_home/source/color_tb/color_tb.h
+gesture_sensor/gesture_sensor.h
+/root/workspace/smart_home/source/gesture_sensor/gesture_sensor.h
+gesture_sensor/gpio.h
+/root/workspace/smart_home/source/gesture_sensor/gpio.h
+

@@ -1,0 +1,1 @@
+/usr/bin/gcc     CMakeFiles/smart_home.dir/main.c.o CMakeFiles/smart_home.dir/ble_gatt/ble_gatt.c.o CMakeFiles/smart_home.dir/color_tb/color_tb.c.o CMakeFiles/smart_home.dir/gesture_sensor/gesture_sensor.c.o CMakeFiles/smart_home.dir/gesture_sensor/gpio.c.o  -o smart_home -rdynamic 
